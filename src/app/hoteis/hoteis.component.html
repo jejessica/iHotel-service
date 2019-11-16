@@ -1,0 +1,32 @@
+<section class="content-header">
+  <h1>
+    Todos os Hotéis
+  </h1>
+</section>
+
+<span class="place-info-box-detail espacamento">
+    <strong>Escolha uma opção: </strong>
+        <select>                      
+        <option *ngFor="let cliente of cliente" selected> {{ cliente }} </option>
+    </select>
+    <label for="data-1">Data 1</label>
+      <input type="date">
+    <label for="data-2">Data 2</label>
+     <input type="date">
+    <label for="data-3">Data 3</label>
+      <input type="date">
+</span>
+
+<section class="content">
+
+  <div class="row">
+
+    <div *ngFor="let hotel of hoteis" class="col-sm-6">      
+        
+      <mt-hotel [hotel]="hotel" ></mt-hotel>    
+
+    </div>    
+   
+  </div>
+ 
+</section>

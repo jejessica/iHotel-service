@@ -1,0 +1,21 @@
+
+<div class="place-info-box">
+    
+    <span class="place-info-box-icon">
+        <img [src]="hotel.imagePath" />
+    </span>
+
+    <div class="place-info-box-content">
+        
+        <span class="place-info-box-text-2"> Hotel {{ hotel.name }} </span>
+        <span class="place-info-box-star"><i class="fa fa-star"></i> {{ hotel.rating }}</span>
+        <span class="place-info-box-detail"> <strong>Preço Regular/semana (R$): </strong> {{ hotel.price }} </span>
+        <span class="place-info-box-detail"> <strong>Preço Regular/Fim de Semana (R$):</strong> {{ hotel.priceWeekend }} </span>
+        <span class="place-info-box-detail"> <strong>Cliente Reward/semana (R$): </strong> {{ hotel.priceVip }} </span>
+        <span class="place-info-box-detail"> <strong>Cliente Reward/Fim de semana (R$):</strong> {{ hotel.priceVipWeekend }} </span>
+     
+    </div>
+
+</div>
+
+

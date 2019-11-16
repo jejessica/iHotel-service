@@ -1,0 +1,29 @@
+.place-info-box-icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.place-info-box-text-2 {
+    /* display: block; */
+    font-size: 18px !important;
+    font-weight: bold !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin-bottom: 10px !important;
+    text-transform: uppercase !important;
+    width: 80% !important;
+}
+
+.place-info-box-content {
+    padding: 5px 10px;
+    margin-left: 200px;
+}
