@@ -1,10 +1,10 @@
-# iHotel - Angular App Starter
+# iHotel 
 
 ## 1. Passos para começar
 
 ### Clonando o Repositório
 
-`git clone https://github.com/cod3rcursos/ihotel-app.git`
+`git clone https://github.com/jejessica/iHotel-service.git`
 
 ### Instalando as Dependências
 
@@ -142,6 +142,3 @@ Dependências dos pacotes que devem ficar em package.json:
   }
 ```
 
-## Créditos
-
-Todas as imagens usadas na aplicação são pertencentes a freepik.com
