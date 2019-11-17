@@ -4,7 +4,7 @@
 
 ### Clonando o Repositório
 
-`git clone https://github.com/cod3rcursos/ihotel-app.git`
+`git clone https://github.com/jejessica/iHotel-service.git`
 
 ### Instalando as Dependências
 
