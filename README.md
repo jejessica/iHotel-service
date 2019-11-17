@@ -1,4 +1,4 @@
-# iHotel - Angular App Starter
+# iHotel 
 
 ## 1. Passos para começar
 
