@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { HoteisComponent } from './hoteis/hoteis.component';
 import { HotelComponent } from './hoteis/hotel/hotel.component';
+import { HoteisService } from './hoteis/hoteis.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { HotelComponent } from './hoteis/hotel/hotel.component';
     HttpModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [],
+  providers: [HoteisService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

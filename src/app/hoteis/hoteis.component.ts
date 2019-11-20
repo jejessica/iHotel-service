@@ -16,7 +16,8 @@ export class HoteisComponent implements OnInit {
   constructor(private hoteisService: HoteisService) { }
 
   ngOnInit() {
-    this.hoteis = this.hoteisService.hoteis()
+     this.hoteisService.hoteis()
+                       .subscribe(hoteis => this.hoteis )
   }
 
 }
